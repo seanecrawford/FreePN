@@ -1,0 +1,9 @@
+---
+# FreePN gateway provisioning playbook
+
+- name: Configure FreePN gateway
+  hosts: freepn_gateways
+  become: yes
+  roles:
+    - wireguard
+    - nftables

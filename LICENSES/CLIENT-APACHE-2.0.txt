@@ -1,0 +1,16 @@
+Apache License
+                               Version 2.0, January 2004
+                            http://www.apache.org/licenses/
+
+This project ships some client‑side components (e.g. the CLI and
+future desktop/mobile apps) under the Apache License 2.0.  This file
+is a stub – to view the full licence terms please visit the official
+site: https://www.apache.org/licenses/LICENSE-2.0.  In summary, you
+may use, reproduce and distribute the software under permissive
+conditions, including mixing it with proprietary code, provided that
+you include a copy of the licence, preserve attribution notices and
+provide a notice file when required.  The license expressly disclaims
+any warranties and limits liability【17654885149055†L90-L104】.
+
+For complete text of the Apache License 2.0 see the linked URL above
+or the copy in the documentation of the Apache Software Foundation.

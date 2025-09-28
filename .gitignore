@@ -1,0 +1,28 @@
+# Binaries and build output
+bin/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.out
+
+# Logs and local state
+*.log
+*.pid
+.cache/
+
+# Editor and system files
+*~
+*.swp
+.DS_Store
+
+# Go modules and vendor dir (if vendored)
+vendor/
+
+# Ansible artifacts
+*.retry
+
+# Generated configs
+my-freepn.conf

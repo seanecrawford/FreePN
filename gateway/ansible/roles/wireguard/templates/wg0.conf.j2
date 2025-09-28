@@ -1,0 +1,12 @@
+[Interface]
+# Replace with the server's private key.  You can generate one with
+# `wg genkey` and store it in an Ansible variable (wg_private_key).
+PrivateKey = {{ wg_private_key | default('YOUR_SERVER_PRIVATE_KEY') }}
+
+# IPv4/IPv6 addresses assigned to the gateway.  Adjust as needed.
+Address = {{ wg_address | default('10.66.0.1/24') }}, {{ wg_address6 | default('fd00:66::1/64') }}
+
+# UDP port WireGuard listens on.  The default is 51820.
+ListenPort = {{ wg_listen_port | default(51820) }}
+
+# Peers are added dynamically by the control plane via wgctrl.

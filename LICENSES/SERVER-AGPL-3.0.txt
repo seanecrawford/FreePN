@@ -1,0 +1,19 @@
+GNU Affero General Public License
+                           Version 3, 19 November 2007
+                https://www.gnu.org/licenses/agpl-3.0.txt
+
+The server‑side components of FreePN (control plane, gateway
+configuration and any network services) are licensed under the GNU
+Affero General Public License v3.0.  This licence guarantees that
+improvements made to the software and deployed over a network are
+shared with the community.  You may copy and distribute verbatim
+copies of this licence document, but changing it is not allowed.
+
+This file contains only a summary.  Please refer to the full
+licence text at the official GNU site: https://www.gnu.org/licenses/agpl-3.0.txt.
+The preamble of the licence emphasises that it is intended to ensure
+users’ freedom to share and change software used on network
+servers【493506396904348†L9-L45】.  When operating a modified version on
+a publicly accessible server, you must provide the complete modified
+source code to anyone interacting with the service【493506396904348†L40-L47】.  Other
+terms and conditions apply; see the full text for details.

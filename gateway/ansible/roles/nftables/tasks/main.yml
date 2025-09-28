@@ -1,0 +1,19 @@
+---
+# Install and configure nftables for FreePN
+
+- name: Install nftables
+  package:
+    name: nftables
+    state: present
+
+- name: Deploy nftables configuration
+  template:
+    src: freepn.nft.j2
+    dest: /etc/nftables.conf
+    mode: 0644
+
+- name: Enable and start nftables
+  systemd:
+    name: nftables
+    enabled: yes
+    state: started
